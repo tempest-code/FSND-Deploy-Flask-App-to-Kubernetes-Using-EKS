@@ -33,7 +33,8 @@ phases:
         - $(aws ecr get-login --no-include-email)
         - export KUBECONFIG=$HOME/.kube/config
         - echo "Logging in to Docker Hub..."
-        - echo $DOCKERHUB_PASSWORD | docker login --username tempestcode --password-stdin
+        - echo $DOCKER_PASSWORD
+        - docker login --username tempestcode --password $DOCKER_PASSWORD
 
   build:
     commands:
