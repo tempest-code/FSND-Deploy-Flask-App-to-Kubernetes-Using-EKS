@@ -1,0 +1,6 @@
+# ignore everything
+*
+# unignore just what we want
+!Dockerfile
+!main.py
+!requirements.txt
