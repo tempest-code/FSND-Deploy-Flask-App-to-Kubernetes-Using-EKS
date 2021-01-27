@@ -1,0 +1,1 @@
+kubectl get services simple-jwt-api -o wide
