@@ -31,4 +31,4 @@ htmlcov/
 # virtualenv
 venv/
 
-local_env_file
+/local_env_file

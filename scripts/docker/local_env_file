@@ -1,0 +1,3 @@
+# copy to ../..
+JWT_SECRET=<PUT SECRET HERE>
+LOG_LEVEL=DEBUG
