@@ -4,3 +4,4 @@
 !Dockerfile
 !main.py
 !requirements.txt
+!.env_file
