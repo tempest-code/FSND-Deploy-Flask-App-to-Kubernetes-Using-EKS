@@ -3,4 +3,4 @@ if [ "$#" -ne 1 ]; then
     return
 fi
 
-aws ssm put-parameter --name JWT_SECRET --value "$1" --type SecureString
+aws ssm put-parameter --name JWT_SECRET --value "$1" --type SecureString --overwrite
