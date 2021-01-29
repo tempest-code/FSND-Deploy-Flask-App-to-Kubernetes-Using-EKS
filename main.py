@@ -61,6 +61,11 @@ def health():
     return jsonify("Healthy")
 
 
+@APP.route('/secret', methods=['GET'])
+def secret():
+    return jsonify(JWT_SECRET)
+
+
 @APP.route('/auth', methods=['POST'])
 def auth():
     """
